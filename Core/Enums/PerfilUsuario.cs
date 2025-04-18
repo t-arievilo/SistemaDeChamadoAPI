@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Core.Enums
 {
-    class PerfilUsuario
+    public enum PerfilUsuario
     {
+        Producao,
+        Manutencao,
+        Administrador,
+
     }
 }

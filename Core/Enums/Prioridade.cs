@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Core.Enums
 {
-    class Prioridade
+    public enum Prioridade
     {
+        Baixo,
+        Medio,
+        Alto,
+        Maximo
     }
 }

@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Core.Enums
 {
-    class StatusChamado
+    public enum StatusChamado
     {
+        Aberto,
+        EmAndamento,
+        Resolvido,
+        Fechado,
+        Cancelado
     }
+    
 }
