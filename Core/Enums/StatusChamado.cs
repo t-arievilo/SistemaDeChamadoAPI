@@ -10,9 +10,9 @@ namespace Core.Enums
     {
         Aberto,
         EmAndamento,
-        Resolvido,
-        Fechado,
-        Cancelado
+        AguardandoValidacao,
+        Concluido,
+        Reaberto
     }
     
 }
