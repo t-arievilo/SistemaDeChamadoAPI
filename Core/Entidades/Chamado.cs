@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.JavaScript;
 using System.Text;
 using System.Threading.Tasks;
 using Core.Enums;
@@ -21,6 +22,9 @@ namespace Core.Entidades
         public Usuario AceitaChamadoOperador { get; set; }
         public DateTime? DataConclusaoChamado { get; set; }
         public string Feedback { get; set; }
+
+        public int? ValidadoPorId { get; set; }
+        public DateTime? ValidadoEm { get; set; }
 
 
         public void Aceitar(int userId)
